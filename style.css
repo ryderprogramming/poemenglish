@@ -4,6 +4,7 @@
 }
 #block {
     padding: 20px 15px;
+    border-radius: 5px;
     background: rgb(241, 241, 241);
     box-shadow: 10px solid black;
 }
