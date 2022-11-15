@@ -1,0 +1,29 @@
+#poem {
+    position: absolute;
+    bottom: -200px;
+    opacity: 0.5;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+}
+#book {
+    position: absolute;
+    bottom: 0px;
+    border: 2px solid black;
+    width: 80%;
+    height: 40px;
+    left: 10%;
+    opacity: 1.0;
+    z-index: 10000;
+    background: white;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+svg{
+    position: absolute;
+    left: 0px;
+    fill: rgb(253, 253, 253);
+    stroke: black;
+    stroke-width: 0.03px;
+}
